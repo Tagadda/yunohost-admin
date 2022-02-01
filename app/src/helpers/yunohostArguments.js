@@ -341,7 +341,7 @@ export function configPanelsFieldIsVisible (expression, field, forms) {
   }
 
   // Allow to use match(var,regexp) function
-  const matchRe = new RegExp('match\\(\\s*(\\w+)\\s*,\\s*"([^"]+)"\\s*\\)', 'g')
+  const matchRe = new RegExp('match\\(\\s*(\\w+)\\s*,\\s*[\'"]([^\'"]+)[\'"]\\s*\\)', 'g')
   let i = 0
   Promise.all(promises).then(() => {
     for (const matched of expression.matchAll(matchRe)) {
