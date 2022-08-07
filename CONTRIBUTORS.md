@@ -27,6 +27,7 @@ YunoHost Administration Contributors
 - Valentin 'zamentur' / 'ljf' Grimaud
 - M5oul
 - thardev
+- - Tag
 
 
 YunoHost Administration Translators
